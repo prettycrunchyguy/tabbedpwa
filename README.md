@@ -1,5 +1,5 @@
 # tabbedpwa
-bookmark any website as a pwa with tabs and homepages on chrome, like internet explorer &amp; msedge
+bookmark any website as a pwa (progressive web app) with tabs and homepages on chrome, like internet explorer &amp; msedge
 ## how to install
 1. Enable enable-desktop-pwas-tab-strip, enable-desktop-pwas-tab-strip-settings, and enable-desktop-pwas-tab-strip-customizations in chrome://flags
 2. Restart chrome
