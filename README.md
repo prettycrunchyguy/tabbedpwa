@@ -7,4 +7,5 @@ bookmark any website as a pwa with tabs and homepages on chrome, like internet e
 4. [Install userscript](https://github.com/prettycrunchyguy/tabbedpwa/raw/refs/heads/main/index.user.js)
 ## todo
 1. handle websites that already have an app manifest
-2. something else i forgor
+2. handle websites with a favicon (look out for link[rel="icon"] and /favicon.ico)
+3. something else i forgor
