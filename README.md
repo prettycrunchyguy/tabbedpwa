@@ -6,7 +6,7 @@ bookmark any website as a pwa (progressive web app) with tabs and homepages on c
 3. [Install Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 4. [Install userscript](https://github.com/prettycrunchyguy/tabbedpwa/raw/refs/heads/main/index.user.js)
 ## todo
-1. handle websites that already have an app manifest
+1. ~~handle websites that already have an app manifest~~
 2. handle websites with a favicon (look out for link[rel="icon"] and /favicon.ico)
 3. something else i forgor
 4. possibly rewrite the entire code
