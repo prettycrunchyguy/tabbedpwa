@@ -7,6 +7,7 @@ bookmark any website as a pwa (progressive web app) with tabs and homepages on c
 4. [Install userscript](https://github.com/prettycrunchyguy/tabbedpwa/raw/refs/heads/main/index.user.js)
 ## todo
 1. ~~handle websites that already have an app manifest~~
-2. handle websites with a favicon (look out for link[rel="icon"] and /favicon.ico)
+2. handle websites with a favicon (look out for link[rel="icon"] and /favicon.ico) and prioritize it over using the google api
 3. something else i forgor
 4. possibly rewrite the entire code
+5. resize unfit icons automatically
