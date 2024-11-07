@@ -42,8 +42,10 @@ function editPWA(){
     let c = new Image()
     let a
     c.onload = function(){
+        // the entirety of this needs to be rewritten :(
         if (c.width<144){
-            a = {"display":"standalone","display_override":["tabbed"],"name":title,"start_url":start,"icons":[{"type":"image/png","src":"https://cdn.glitch.global/563b0136-ef02-47aa-9600-7da28abe691c/card-index-dividers_1f5c2-fe0f.png?v=1670196760807","sizes":"160x160"}]}
+            //a = {"display":"standalone","display_override":["tabbed"],"name":title,"start_url":start,"icons":[{"type":"image/png","src":"https://cdn.glitch.global/563b0136-ef02-47aa-9600-7da28abe691c/card-index-dividers_1f5c2-fe0f.png?v=1670196760807","sizes":"160x160"}]}
+            a = {"display":"standalone","display_override":["tabbed"],"name":title,"start_url":start} //its a stupid looking icon, but this is still temporary
         }else if (b.startsWith("https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://")){
             a = {"display":"standalone","display_override":["tabbed"],"name":title,"start_url":start,"icons":[{"type":"image/png","src":b+"&size=256","sizes":Math.min(256,c.width)+"x"+Math.min(256,c.height)},{"type":"image/png","src":b+"&size=128","sizes":Math.min(128,c.width)+"x"+Math.min(128,c.height)},{"type":"image/png","src":b+"&size=64","sizes":Math.min(64,c.width)+"x"+Math.min(c.height,64)}]}
         }else{
@@ -113,8 +115,10 @@ function editPWA(){
                     }else{
                         let c = new Image()
                         c.onload = function(){
+                            // rewrite this too
                             if (c.width<144){
-                                d.icons = [{"type":"image/png","src":"https://cdn.glitch.global/563b0136-ef02-47aa-9600-7da28abe691c/card-index-dividers_1f5c2-fe0f.png?v=1670196760807","sizes":"160x160"}]
+                                //d.icons = [{"type":"image/png","src":"https://cdn.glitch.global/563b0136-ef02-47aa-9600-7da28abe691c/card-index-dividers_1f5c2-fe0f.png?v=1670196760807","sizes":"160x160"}]
+                                d.icons = []
                             }else if (b.startsWith("https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://")){
                                 d.icons = [{"type":"image/png","src":icon+"&size=256","sizes":Math.min(256,c.width)+"x"+Math.min(256,c.height)},{"type":"image/png","src":icon+"&size=128","sizes":Math.min(128,c.width)+"x"+Math.min(128,c.height)},{"type":"image/png","src":icon+"&size=64","sizes":Math.min(64,c.width)+"x"+Math.min(c.height,64)}]
                             }else{
