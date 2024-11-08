@@ -11,3 +11,4 @@ bookmark any website as a pwa (progressive web app) with tabs and homepages on c
 3. something else i forgor
 4. possibly rewrite the entire code
 5. resize unfit icons automatically
+6. add accent color personalization
