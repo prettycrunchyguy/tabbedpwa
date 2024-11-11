@@ -69,6 +69,9 @@ function editPWA(){
     'use strict';
 
     window.addEventListener("load",function(){
+        if (document.querySelectorAll('meta[name="tabbedpwa"][content="false"]').length>0){
+            return;
+        }
         // Check if manifest file already exists
         title = document.title
         start = location.href
