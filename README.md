@@ -15,3 +15,4 @@ bookmark any website as a pwa (progressive web app) with tabs and homepages on c
 6. add accent color personalization
 7. enable/disable home tab
 8. new tab page customization
+9. set `id` property to the root url by default
